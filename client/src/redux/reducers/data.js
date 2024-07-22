@@ -2,7 +2,7 @@ import {datatypes} from '../actions/data.js'
 
 const initial_state = {
     authenticated: false,
-    open_menu_main: true,
+    open_menu_main: false,
 }
 
 const data = (state = initial_state, action) => {
