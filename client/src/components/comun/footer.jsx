@@ -116,22 +116,22 @@ export default function Footer({proporcional}) {
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={location} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional, marginRight: 10 / proporcional}}/>
                                 <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
-                                    marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                                    <a href='/' style={{textDecoration: 'none', color: 'white'}}>Dirección, ubicación</a>
+                                    marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
+                                    Dirección, ubicación
                                 </p>
                             </div>
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={phone} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional, marginRight: 10 / proporcional}}/>
                                 <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
-                                    marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                                    <a href='/' style={{textDecoration: 'none', color: 'white'}}>(+51) 999-XXXXXX</a>
+                                    marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
+                                    (+51) 999-XXXXXX
                                 </p>
                             </div>
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={email} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional, marginRight: 10 / proporcional}}/>
                                 <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
-                                    marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                                    <a href='/' style={{textDecoration: 'none', color: 'white'}}>correo@dominio.com</a>
+                                    marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
+                                    correo@dominio.com
                                 </p>
                             </div>
                         </div>

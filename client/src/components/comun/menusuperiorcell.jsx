@@ -12,6 +12,7 @@ export default function MenuSuperiorCell({proporcional}) {
     const dispatch = useDispatch()
 
     const {open_menu_main} = useSelector(({data_actions}) => data_actions)
+    console.log ('open', open_menu_main)
 
     return (
         <div className='shadow' style={{width: '100%', height: 100 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional}}>
@@ -24,8 +25,9 @@ export default function MenuSuperiorCell({proporcional}) {
                     </div>
                     <div className='d-flex justify-content-end' style={{width: '50%', height: 60 / proporcional}}>
                         <div style={{width: 'auto', height: 60 / proporcional, padding: 10 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional,
-                                cursor: 'pointer'}} onClick={() => dispatch(set_open_menu_main(!open_menu_main))}>
-                            <img src={menu} style={{width: 40 / proporcional, height: 40 / proporcional, padding: 5 / proporcional}}/>
+                                cursor: 'pointer'}}>
+                            <img src={menu} style={{width: 40 / proporcional, height: 40 / proporcional, padding: 5 / proporcional, cursor: 'pointer'}}
+                                onClick={() => dispatch(set_open_menu_main(!open_menu_main))}/>
                         </div>
                     </div>
                 </div>            

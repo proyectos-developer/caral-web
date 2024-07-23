@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 import whatsapp from '../../assets/iconos/redes/whatsapp.png'
 
+import MenuDatos from '../comun/menudatos.jsx'
 import MenuSuperior from '../comun/menusuperior.jsx'
 
 export default function GlobalPanel({proporcional}) {
@@ -13,6 +14,7 @@ export default function GlobalPanel({proporcional}) {
     return (
         <div className='position-relative' style={{width: '100%', height: 'auto'}}>
             <div className='position-fixed top-0 start-0' style={{width: '100%', height: 'auto', background: 'transparent', zIndex: 99999}}>
+                <MenuDatos proporcional={proporcional}/>
                 <MenuSuperior proporcional={proporcional}/>
             </div>
             <Outlet/>

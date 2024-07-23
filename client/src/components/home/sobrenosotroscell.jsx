@@ -27,7 +27,7 @@ export default function SobreNosotrosCell({proporcional}) {
                                     En CARAL DISTRIBUIDORA SAC, somos más que un distribuidor de productos, somos su socio estratégico para el éxito en la industria gastronómica.
                                 </p>
                             </div>
-                            <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto'}}>
+                            <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
                                 <div style={{width: '90%', height: 'auto'}}>
                                     <div className='d-flex' style={{width: '90%', height: 64 / proporcional, marginBottom: 20 / proporcional}}>
                                         <img src={mision} style={{width: 64 / proporcional, height: 64 / proporcional, padding: 8 / proporcional, marginRight: 16 / proporcional,
