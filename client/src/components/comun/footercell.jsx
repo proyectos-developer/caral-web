@@ -49,32 +49,32 @@ export default function FooterCell({proporcional}) {
                 <div style={{width: '90%', height: 'auto', padding: 10 / proporcional}}>
                     <div style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Playfair Display',
+                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                 marginBottom: 10 / proporcional, cursor: 'default', textAlign: 'left'}}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Menú</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#d5121e'}}>Menú</a>
                             </h4>
-                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: 'white'}}/>
+                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: '#d5121e'}}/>
                         </div>
                         <div style={{width: '100%', height: 'auto'}}>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'inicio' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'inicio' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('inicio')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Inicio</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Inicio</a>
                             </p>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'nosotros' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'nosotros' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('nosotros')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Nosotros</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Nosotros</a>
                             </p>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('productos')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Productos</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Productos</a>
                             </p>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'contacto' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'contacto' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('contacto')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Contácto</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Contácto</a>
                             </p>
 
                         </div>
@@ -87,22 +87,22 @@ export default function FooterCell({proporcional}) {
                 <div style={{width: '90%', height: 'auto', padding: 10 / proporcional}}>
                     <div style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Playfair Display',
+                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                 marginBottom: 10 / proporcional, cursor: 'default', textAlign: 'left'}}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Productos</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#d5121e'}}>Productos</a>
                             </h4>
-                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: 'white'}}/>
+                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: '#d5121e'}}/>
                         </div>
                         <div style={{width: '100%', height: 'auto'}}>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos-personales' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos-personales' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('productos-personales')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Personas naturales</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Personas naturales</a>
                             </p>
-                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos-negocios' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                            <p style={{fontSize: 20 / proporcional, fontWeight:  seleccion_menu === 'productos-negocios' ? 800 : 600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                 marginBottom: 20 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('productos-negocios')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Negocios / empresas</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#20294e'}}>Negocios / empresas</a>
                             </p>
                         </div>
                     </div>
@@ -114,30 +114,30 @@ export default function FooterCell({proporcional}) {
                 <div style={{width: '90%', height: 'auto', padding: 10 / proporcional}}>
                     <div style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
-                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Playfair Display',
+                            <h4 style={{fontSize: 30 / proporcional, fontWeight: 700, lineHeight: `${40 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                 marginBottom: 10 / proporcional, cursor: 'default', textAlign: 'left'}}>
-                                <a href='/' style={{textDecoration: 'none', color: 'white'}}>Contácto</a>
+                                <a href='/' style={{textDecoration: 'none', color: '#d5121e'}}>Contácto</a>
                             </h4>
-                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: 'white'}}/>
+                            <div className='rounded-pill' style={{width: '15%', height: 4 / proporcional, background: '#d5121e'}}/>
                         </div>
                         <div style={{width: '100%', height: 'auto'}}>
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={location} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional}}/>
-                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                     marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
                                     Dirección, ubicación
                                 </p>
                             </div>
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={phone} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional}}/>
-                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                     marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
                                     (+51) 999-XXXXXX
                                 </p>
                             </div>
                             <div className='d-flex' style={{width: '100%', height: 30 / proporcional, marginBottom: 20 / proporcional}}>
                                 <img src={email} style={{width: 30 / proporcional, height: 30 / proporcional, padding: 3 / proporcional}}/>
-                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                                <p style={{fontSize: 20 / proporcional, fontWeight:  600, lineHeight: `${30 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                     marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
                                     correo@dominio.com
                                 </p>

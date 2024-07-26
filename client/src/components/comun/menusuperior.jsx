@@ -18,42 +18,42 @@ export default function MenuSuperior({proporcional}) {
                     <div className='d-flex justify-content-end' style={{width: '70%', height: 80 / proporcional}}>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
                             <p style={{fontSize: 18 / proporcional, fontWeight:  seleccion_menu === 'inicio' ? 700 : 600, lineHeight: `${40 / proporcional}px`, 
-                                color: 'white', fontFamily: 'Montserrat',
+                                color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('inicio')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#' style={{textDecoration: 'none', color: 'white'}}>Inicio</a>
+                                <a href='/#' style={{textDecoration: 'none', color: '#20294e'}}>Inicio</a>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
                             <p style={{fontSize: 18 / proporcional, fontWeight:  seleccion_menu === 'nosotros' ? 700 : 600, lineHeight: `${40 / proporcional}px`, 
-                                color: 'white', fontFamily: 'Montserrat',
+                                color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('nosotros')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#nosotros' style={{textDecoration: 'none', color: 'white'}}>Sobre nosotros</a>
+                                <a href='/#nosotros' style={{textDecoration: 'none', color: '#20294e'}}>Nosotros</a>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
                             <p style={{fontSize: 18 / proporcional, fontWeight:  seleccion_menu === 'clientes' ? 700 : 600, lineHeight: `${40 / proporcional}px`, 
-                                color: 'white', fontFamily: 'Montserrat',
+                                color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('clientes')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#clientes' style={{textDecoration: 'none', color: 'white'}}>Nuestros clientes</a>
+                                <a href='/#clientes' style={{textDecoration: 'none', color: '#20294e'}}>Clientes</a>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
                             <p style={{fontSize: 18 / proporcional, fontWeight:  seleccion_menu === 'productos' ? 700 : 600, lineHeight: `${40 / proporcional}px`, 
-                                color: 'white', fontFamily: 'Montserrat',
+                                color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('productos')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#productos' style={{textDecoration: 'none', color: 'white'}}>Nuestros productos</a>
+                                <a href='/#productos' style={{textDecoration: 'none', color: '#20294e'}}>Productos</a>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
                             <p style={{fontSize: 18 / proporcional, fontWeight:  seleccion_menu === 'contacto' ? 700 : 600, lineHeight: `${40 / proporcional}px`, 
-                                color: 'white', fontFamily: 'Montserrat',
+                                color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('contacto')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#contacto' style={{textDecoration: 'none', color: 'white'}}>Contácto</a>
+                                <a href='/#contacto' style={{textDecoration: 'none', color: '#20294e'}}>Contácto</a>
                             </p>
                         </div>
                     </div>

@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'Banschrift';
+    src: local('Banshrift'), url(./assets/fonts/BAHNSCHRIFT.TTF) format('truetype')
+}
+
+@font-face{
+    font-family: 'Mont';
+    src: local('Mont'), url(./assets/fonts/Mont-Heavy.otf) format('opentype')
+}
+
+.background{
+    background: '#c0e1d7';
+}
+
+.color-red{
+    color: '#d5121e';
+}
+
+.color-dark-blue{
+    color: '#20294e';
+}

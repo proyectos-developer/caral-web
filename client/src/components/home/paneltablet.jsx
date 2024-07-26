@@ -13,14 +13,13 @@ import background_image from '../../assets/image/home/background_tablet.png'
 export default function HomePanelTablet({proporcional}) {
     
     return (
-        <div style={{width: '100%', height: 5238 / proporcional, backgroundImage: `url(${background_image})`, backgroundSize: 'cover', backgroundPosition: 'center', 
-                     backgroundRepeat: 'no-repeat'}}>
+        <div style={{width: '100%', height: '100%', background: '#c0e1d7'}}>
             <BannerPrincipalTablet proporcional={proporcional}/>
             <SobreNostrosTablet proporcional={proporcional}/>
             <NuestrosClientesTablet proporcional={proporcional}/>
             <NuestrosProductosTablet proporcional={proporcional}/>
             <ContactanosTablet proporcional={proporcional}/>
-            <MapaUbicacionTablet proporcional={proporcional}/>
+            {/**<MapaUbicacionTablet proporcional={proporcional}/>**/}
             <FooterTablet proporcional={proporcional}/>
         </div>
     )

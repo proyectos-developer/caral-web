@@ -9,7 +9,7 @@ export default function NuestrosClientesTablet({proporcional}) {
         <div className='' style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
             <div id='clientes' className='' style={{width: '100%', height: 'auto', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
                 <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
-                    <h2 style={{fontSize: 48 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#FFD700', fontFamily: 'Playfair Display',
+                    <h2 style={{fontSize: 48 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                         marginBottom: 30 / proporcional, cursor: 'default'}}>
                         Nuestros clientes
                     </h2>
@@ -18,8 +18,8 @@ export default function NuestrosClientesTablet({proporcional}) {
                     <div className='' style={{width: '48%', height: 'auto'}}>
                         <div className='position-relative' style={{width: '100%', height: 267 / proporcional}}>
                             <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto', padding: 20 / proporcional}}>
-                                <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Open Sans', fontWeight: 400,
-                                    color: 'white'}}>
+                                <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,
+                                    color: '#20294e'}}>
                                     En CARAL DISTRIBUIDORA SAC, entendemos las exigencias.  Sabemos que la calidad, la exclusividad y la eficiencia son clave para el éxito de su negocio. Por eso, nos hemos convertido en el aliado estratégico de restaurantes, hoteles y empresas de catering que buscan ofrecer experiencias gastronómicas únicas e inolvidables.
                                 </p>
                             </div>
@@ -36,8 +36,8 @@ export default function NuestrosClientesTablet({proporcional}) {
                     <div className='' style={{width: '48%', height: 'auto'}}>
                         <div className='position-relative' style={{width: '100%', height: 267 / proporcional}}>
                             <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto', padding: 20 / proporcional}}>
-                                <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Open Sans', fontWeight: 400,
-                                    color: 'white'}}>
+                                <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,
+                                    color: '#20294e'}}>
                                     En CARAL DISTRIBUIDORA SAC, sabemos que la alimentación de su familia es lo más importante. Por eso, nos esforzamos por llevar hasta su hogar los productos más frescos, saludables y deliciosos, seleccionados con el mismo cuidado que usted pondría al elegirlos para los suyos.
                                 </p>
                             </div>

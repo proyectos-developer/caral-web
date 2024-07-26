@@ -13,14 +13,13 @@ import background_image from '../../assets/image/home/background.png'
 export default function HomePanel({proporcional}) {
     
     return (
-        <div style={{width: '100%', height: 5070 / proporcional, backgroundImage: `url(${background_image})`, backgroundSize: 'cover', backgroundPosition: 'center', 
-                     backgroundRepeat: 'no-repeat'}}>
+        <div style={{width: '100%', height: '100%', background: '#c0e1d7'}}>
             <BannerPrincipal proporcional={proporcional}/>
             <SobreNostros proporcional={proporcional}/>
             <NuestrosClientes proporcional={proporcional}/>
             <NuestrosProductos proporcional={proporcional}/>
             <Contactanos proporcional={proporcional}/>
-            <MapaUbicacion proporcional={proporcional}/>
+            {/**<MapaUbicacion proporcional={proporcional}/>**/}
             <Footer proporcional={proporcional}/>
         </div>
     )

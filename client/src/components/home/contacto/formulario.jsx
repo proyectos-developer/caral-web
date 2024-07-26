@@ -97,7 +97,7 @@ export default function Formulario({proporcional}) {
             </div>
             <div className='d-flex justify-content-start' style={{width: '100%', height: 150 / proporcional, marginBottom: 30 / proporcional}}>
                 <div className='rounded' 
-                    style={{width: 200 / proporcional, height: 50 / proporcional, background: boton_mensaje ? 'rgba(255, 215, 0, 0.8)' : 'rgb(255, 215, 0)',
+                    style={{width: 200 / proporcional, height: 50 / proporcional, background: boton_mensaje ? 'rgba(213, 18, 30, 0.8)' : 'rgb(213, 18, 30)',
                         cursor: 'pointer'}} onMouseOver={() => setBotonMensaje(true)} onMouseLeave={() => setBotonMensaje(false)}>
                     <p style={{fontSize: 16 / proporcional, lineHeight: `${50 / proporcional}px`, marginBottom: 0, fontFamily: 'Open Sans', fontWeight: 600,
                         color: 'white', textAlign: 'center'}}>

@@ -18,17 +18,17 @@ export default function MenuDatos({proporcional}) {
                 <div className='d-flex justify-content-between' style={{width: '100%', height: 40 / proporcional}}>
                     <div className='d-flex justify-content-start' style={{width: '60%', height: 40 / proporcional}}>
                         <img src={location} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
-                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                             marginBottom: 10 / proporcional, cursor: 'pointer', textAlign: 'left', marginRight: 8 / proporcional}}>
                             Dirección, ubicación
                         </p>
                         <img src={email} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
-                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                             marginBottom: 10 / proporcional, cursor: 'pointer', textAlign: 'left', marginRight: 8 / proporcional}}>
                             correo@dominio.com
                         </p>
                         <img src={phone} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
-                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: 'white', fontFamily: 'Open Sans',
+                        <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                             marginBottom: 10 / proporcional, cursor: 'pointer', textAlign: 'left', marginRight: 8 / proporcional}}>
                             (+51) 999-XXXXXX
                         </p>
