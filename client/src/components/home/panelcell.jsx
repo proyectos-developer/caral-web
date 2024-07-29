@@ -8,8 +8,6 @@ import ContactanosCell from './contactanoscell.jsx'
 import MapaUbicacionCell from './mapaubicacioncell.jsx'
 import FooterCell from '../comun/footercell.jsx'
 
-import background_image from '../../assets/image/home/background_cell.png'
-
 export default function HomePanelCell({proporcional}) {
     
     return (

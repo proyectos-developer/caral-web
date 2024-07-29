@@ -1,9 +1,12 @@
 import React from 'react'
 
+import vinos from '../../assets/image/home/vino_tablet.png'
+
 export default function BannerPrincipalTablet({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 820 / proporcional}}>
+        <div style={{width: '100%', height: 820 / proporcional, backgroundImage: `url(${vinos})`, backgroundPosition: 'center', backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'}}>
             <div className='position-relative' style={{width: '100%', height: 820 / proporcional}}>
                 <div id='carouselbanner' className='carousel slide' style={{width: '100%', height: 820 / proporcional}}>
                     <div className="carousel-indicators">

@@ -8,8 +8,6 @@ import Contactanos from './contactanos.jsx'
 import MapaUbicacion from './mapaubicacion.jsx'
 import Footer from '../comun/footer.jsx'
 
-import background_image from '../../assets/image/home/background.png'
-
 export default function HomePanel({proporcional}) {
     
     return (

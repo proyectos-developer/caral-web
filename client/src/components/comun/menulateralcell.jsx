@@ -75,10 +75,6 @@ export default function MenuLateralCell({proporcional}) {
                             <img src={instagram} style={{width: 40 / proporcional, height: 40 / proporcional, padding: 5 / proporcional}}
                                 onClick={() => dispatch(set_open_menu_main(false))}/>
                         </a>
-                        <a href='https://www.twitter.com' target='_blank' style={{width: 'auto', height: 'auto', marginRight: 10 / proporcional}}>
-                            <img src={twitter} style={{width: 40 / proporcional, height: 40 / proporcional, padding: 5 / proporcional}}
-                                onClick={() => dispatch(set_open_menu_main(false))}/>
-                        </a>
                         <a href='https://www.linkedin.com' target='_blank' style={{width: 'auto', height: 'auto', marginRight: 10 / proporcional}}>
                             <img src={linkedin} style={{width: 40 / proporcional, height: 40 / proporcional, padding: 5 / proporcional}}
                                 onClick={() => dispatch(set_open_menu_main(false))}/>
