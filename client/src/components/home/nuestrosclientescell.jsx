@@ -2,8 +2,6 @@ import React from 'react'
 
 import negocio from '../../assets/image/home/clientes_negocio.png'
 import familia from '../../assets/image/home/clientes_familia.png'
-import uvas_01 from '../../assets/image/home/uvas_01_cell.png'
-import uvas_02 from '../../assets/image/home/uvas_02_cell.png'
 
 export default function NuestrosClientesCell({proporcional}) {
 
@@ -18,10 +16,11 @@ export default function NuestrosClientesCell({proporcional}) {
                 </div>
                 <div className='' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                     <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
-                        <img className='shadow-lg' src={negocio} style={{width: 400 / proporcional, height: 267 / proporcional}}/>
+                        <div className='d-flex justify-content-center shadow-sm rounded-pill' style={{width: '90%', height: 'auto'}}>
+                            <img className='' src={negocio} style={{width: 400 / proporcional, height: 267 / proporcional}}/>
+                        </div>
                     </div>
-                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional, 
-                    backgroundImage: `url(${uvas_01})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                         <div className='' style={{width: '100%', height: 'auto'}}>
                             <div className='' style={{width: '100%', height: 'auto', padding: 20 / proporcional}}>
                                 <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,
@@ -34,10 +33,11 @@ export default function NuestrosClientesCell({proporcional}) {
                 </div>
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
-                        <img className='shadow-lg' src={familia} style={{width: 400 / proporcional, height: 267 / proporcional}}/>
+                        <div className='d-flex justify-content-center shadow-sm rounded' style={{width: '90%', height: 'auto'}}>
+                            <img className='' src={familia} style={{width: 400 / proporcional, height: 267 / proporcional}}/>
+                        </div>
                     </div>
-                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional, 
-                    backgroundImage: `url(${uvas_02})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                         <div className='' style={{width: '100%', height: 'auto'}}>
                             <div className='' style={{width: '100%', height: 'auto', padding: 20 / proporcional}}>
                                 <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,

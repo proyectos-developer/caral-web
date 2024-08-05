@@ -8,8 +8,6 @@ import ContactanosTablet from './contactanostablet.jsx'
 import MapaUbicacionTablet from './mapaubicaciontablet.jsx'
 import FooterTablet from '../comun/footertablet.jsx'
 
-import background_image from '../../assets/image/home/background_tablet.png'
-
 export default function HomePanelTablet({proporcional}) {
     
     return (

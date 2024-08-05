@@ -3,7 +3,6 @@ import React from 'react'
 import image_nosotros from '../../assets/image/home/imagen_nosotros.png'
 import mision from '../../assets/iconos/home/mision_dorado.png'
 import vision from '../../assets/iconos/home/vision_dorado.png'
-import bandeja from '../../assets/image/home/bandeja_tablet.png'
 
 export default function SobreNosotrosTablet({proporcional}) {
 
@@ -12,12 +11,12 @@ export default function SobreNosotrosTablet({proporcional}) {
             <div className='' style={{width: '100%', height: 'auto'}}>
                 <div id='nosotros' className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 676 / proporcional, marginBottom: 32 / proporcional, paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
-                        <div className='d-flex justify-content-center' style={{width: '100%', height: 676 / proporcional}}>
-                            <img  src={image_nosotros} style={{width: 500 / proporcional, height: 676 / proporcional}}/>
+                        <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 650 / proporcional, 
+                                marginTop: 13 / proporcional, marginBottom: 13 / proporcional}}>
+                            <img className='rounded-pill shadow-lg'  src={image_nosotros} style={{width: 500 / proporcional, height: 650 / proporcional}}/>
                         </div>
                     </div>
-                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional, 
-                        backgroundImage: `url(${bandeja})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
                         <div className='' style={{width: '100%', height: 'auto', padding: 25 / proporcional}}>
                             <h2 style={{fontSize: 48 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                 marginBottom: 30 / proporcional, cursor: 'default'}}>

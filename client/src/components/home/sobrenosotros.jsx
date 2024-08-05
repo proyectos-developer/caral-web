@@ -3,19 +3,18 @@ import React from 'react'
 import image_nosotros from '../../assets/image/home/imagen_nosotros.png'
 import mision from '../../assets/iconos/home/mision_dorado.png'
 import vision from '../../assets/iconos/home/vision_dorado.png'
-import bandeja from '../../assets/image/home/bandeja.png'
 
 export default function SobreNosotros({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: '100%', backgroundImage: `url(${bandeja})`, backgroundPosition: 'center', backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'}}>
+        <div style={{width: '100%', height: 'auto'}}>
             <div className='' style={{width: '100%', height: 'auto', paddingTop: 120 / proporcional, paddingBottom: 60 / proporcional}}>
                 <div className='' style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
                     <div id='nosotros' className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
                         <div className='' style={{width: '37%', height: 676 / proporcional}}>
-                            <div className='d-flex justify-content-center' style={{width: '100%', height: 676 / proporcional}}>
-                                <img  src={image_nosotros} style={{width: 500 / proporcional, height: 676 / proporcional}}/>
+                            <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 650 / proporcional, 
+                                    marginTop: 13 / proporcional, marginBottom: 13 / proporcional}}>
+                                <img className='rounded-pill shadow-lg'  src={image_nosotros} style={{width: 500 / proporcional, height: 650 / proporcional}}/>
                             </div>
                         </div>
                         <div className='position-relative' style={{width: '61%', height: 676 / proporcional}}>

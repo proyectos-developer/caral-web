@@ -2,7 +2,6 @@ import React from 'react'
 
 import negocio from '../../assets/image/home/clientes_negocio.png'
 import familia from '../../assets/image/home/clientes_familia.png'
-import fondo_uvas from '../../assets/image/home/fondo_uvas.png'
 
 
 export default function NuestrosClientes({proporcional}) {
@@ -17,8 +16,7 @@ export default function NuestrosClientes({proporcional}) {
                         Nuestros clientes
                     </h2>
                 </div>
-                <div style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional, 
-                    backgroundImage: `url(${fondo_uvas})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                <div style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
                     <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                         <div className='' style={{width: '48%', height: 'auto'}}>
                             <div className='position-relative' style={{width: '100%', height: 400 / proporcional}}>
@@ -30,13 +28,13 @@ export default function NuestrosClientes({proporcional}) {
                                 </div>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-center' style={{width: '48%', height: 'auto'}}>
-                            <img className='shadow-lg' src={negocio} style={{width: 600 / proporcional, height: 400 / proporcional}}/>
+                        <div className='d-flex justify-content-center shadow-sm rounded-circle' style={{width: '48%', height: 'auto', background: 'transparent'}}>
+                            <img className='rounded-circle' src={negocio} style={{width: 600 / proporcional, height: 400 / proporcional}}/>
                         </div>
                     </div>
                     <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
-                        <div className='d-flex justify-content-center' style={{width: '48%', height: 'auto'}}>
-                            <img className='shadow-lg' src={familia} style={{width: 600 / proporcional, height: 400 / proporcional}}/>
+                        <div className='d-flex justify-content-center shadow-sm rounded' style={{width: '48%', height: 'auto', background: 'transparent'}}>
+                            <img className='rounded' src={familia} style={{width: 600 / proporcional, height: 400 / proporcional}}/>
                         </div>
                         <div className='' style={{width: '48%', height: 'auto'}}>
                             <div className='position-relative' style={{width: '100%', height: 400 / proporcional}}>

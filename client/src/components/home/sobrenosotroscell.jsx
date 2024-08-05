@@ -3,7 +3,6 @@ import React from 'react'
 import image_nosotros from '../../assets/image/home/imagen_nosotros.png'
 import mision from '../../assets/iconos/home/mision_dorado.png'
 import vision from '../../assets/iconos/home/vision_dorado.png'
-import bandeja from '../../assets/image/home/bandeja_cell.png'
 
 export default function SobreNosotrosCell({proporcional}) {
 
@@ -12,12 +11,11 @@ export default function SobreNosotrosCell({proporcional}) {
             <div className='' style={{width: '100%', height: 'auto'}}>
                 <div id='nosotros' className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional, paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
-                        <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto'}}>
-                            <img  src={image_nosotros} style={{width: '80%', height: 'auto'}}/>
+                        <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 'auto'}}>
+                            <img className='rounded-pill' src={image_nosotros} style={{width: '80%', height: 'auto'}}/>
                         </div>
                     </div>
-                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional, 
-                        backgroundImage: `url(${bandeja})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                    <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                         <div className='' style={{width: '100%', height: 'auto', padding: 25 / proporcional}}>
                             <h2 style={{fontSize: 40 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                 marginBottom: 30 / proporcional, cursor: 'default', textAlign: 'center'}}>
