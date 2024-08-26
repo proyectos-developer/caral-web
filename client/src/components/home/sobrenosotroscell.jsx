@@ -24,7 +24,7 @@ export default function SobreNosotrosCell({proporcional}) {
                             <div style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                                 <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banshrif', fontWeight: 400,
                                     color: '#20294e'}}>
-                                    En CARAL DISTRIBUIDORA SAC, somos más que un distribuidor de productos, somos su socio estratégico para el éxito en la industria gastronómica.
+                                    En CARAL DISTRIBUIDORA SAC, somos más que un distribuidor de productos, somos su socio estratégico para el éxito en la industria gastronómica. Permítanos compartir con usted, la pasión y el compromiso que impulsan nuestro negocio y cómo podemos contribuir al éxito de su empresa.
                                 </p>
                             </div>
                             <div style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
@@ -37,7 +37,7 @@ export default function SobreNosotrosCell({proporcional}) {
                                 <div style={{width: '100%', height: 'auto'}}>
                                     <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banshrif', fontWeight: 400,
                                         color: '#20294e'}}>
-                                            "Nuestra misión es proveer a hoteles, restaurantes y empresas de catering con productos exclusivos y de alta calidad que eleven su oferta gastronómica y satisfagan a sus clientes más exigentes."
+                                            "Ser reconocidos como una distribuidora que brinda soluciones integrales y personalizadas que impulsan el crecimiento y éxito de nuestros clientes."
                                     </p>
                                 </div>
                             </div>

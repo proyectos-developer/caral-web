@@ -1,6 +1,5 @@
 import React from 'react'
 
-import producto_00 from '../../assets/image/home/producto_00.png'
 import producto_01 from '../../assets/image/home/producto_01.png'
 import producto_02 from '../../assets/image/home/producto_02.png'
 import producto_03 from '../../assets/image/home/producto_03.png'
@@ -9,7 +8,6 @@ import producto_05 from '../../assets/image/home/producto_05.png'
 import producto_06 from '../../assets/image/home/producto_06.png'
 import producto_07 from '../../assets/image/home/producto_07.png'
 import producto_08 from '../../assets/image/home/producto_08.png'
-import producto_09 from '../../assets/image/home/producto_09.png'
 
 export default function NuestrosProductos({proporcional}) {
 
@@ -33,7 +31,7 @@ export default function NuestrosProductos({proporcional}) {
                     <img src={producto_04} style={{width: '25%', height: '25%'}}/>
                     <img src={producto_05} style={{width: '25%', height: '25%'}}/>
                     <img src={producto_06} style={{width: '25%', height: '25%'}}/>
-                    <img src={producto_08} style={{width: '25%', height: '25%'}}/>
+                    <div style={{width: '25%', height: '25%'}}/>
                 </div>
             </div>
         </div>

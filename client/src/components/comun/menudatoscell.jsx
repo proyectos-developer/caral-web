@@ -14,14 +14,14 @@ export default function MenuDatosCell({proporcional}) {
                         <img src={location} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
                         <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                            Dirección, ubicación
+                            Miraflores
                         </p>
                     </div>
                     <div className='d-flex justify-content-end' style={{width: '48%', height: 'auto'}}>
                         <img src={phone} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
                         <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                            (+51) 999-XXXXXX
+                            (+51) 933-377121
                         </p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function MenuDatosCell({proporcional}) {
                     <img src={email} style={{width: 40 / proporcional, height: 40 / proporcional, marginRight: 8 / proporcional, padding: 10 / proporcional}}/>
                     <p style={{fontSize: 16 / proporcional, fontWeight:  600, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Mont',
                         marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}>
-                        correo@dominio.com
+                        info@caraldistribuidra.pe
                     </p>
                 </div>
             </div>

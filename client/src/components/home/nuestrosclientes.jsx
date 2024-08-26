@@ -23,7 +23,7 @@ export default function NuestrosClientes({proporcional}) {
                                 <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto', padding: 50 / proporcional}}>
                                     <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,
                                         color: '#20294e'}}>
-                                        En CARAL DISTRIBUIDORA SAC, entendemos las exigencias.  Sabemos que la calidad, la exclusividad y la eficiencia son clave para el éxito de su negocio. Por eso, nos hemos convertido en el aliado estratégico de restaurantes, hoteles y empresas de catering que buscan ofrecer experiencias gastronómicas únicas e inolvidables.
+                                        En CARAL DISTRIBUIDORA SAC, entendemos las exigencias. Sabemos que la calidad, el servicio y la eficiencia son claves para el éxito de su negocio. Por eso, nos hemos convertido en el aliado estratégico de restaurantes, hoteles y empresas de catering que buscan ofrecer experiencias gastronómicas únicas e inolvidables. Por eso gracias en su confianza por nuestro servicio.
                                     </p>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default function NuestrosClientes({proporcional}) {
                                 <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto', padding: 50 / proporcional}}>
                                     <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banschrift', fontWeight: 400,
                                         color: '#20294e'}}>
-                                        En CARAL DISTRIBUIDORA SAC, sabemos que la alimentación de su familia es lo más importante. Por eso, nos esforzamos por llevar hasta su hogar los productos más frescos, saludables y deliciosos, seleccionados con el mismo cuidado que usted pondría al elegirlos para los suyos.
+                                            En CARAL DISTRIBUIDORA SAC, sabemos que la alimentación de su familia es lo más importante. Por eso, nos esforzamos por llevar hasta su hogar productos saludables, deliciosos y de alta calidad, seleccionados con el mismo cuidado que usted pondría al elegirlos para los suyos.
                                     </p>
                                 </div>
                             </div>
