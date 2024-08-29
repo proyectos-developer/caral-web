@@ -4,8 +4,11 @@ import background_00 from '../../assets/image/home/background_00_cell.png'
 import background_01 from '../../assets/image/home/background_01_cell.png'
 import background_02 from '../../assets/image/home/background_02_cell.png'
 import background_03 from '../../assets/image/home/background_03_cell.png'
+import { useNavigate } from 'react-router-dom'
 
 export default function BannerPrincipalCell({proporcional}) {
+
+    const navigate = useNavigate()
 
     const [boton_slide_3, setBotonSlide3] = useState(false)
 
@@ -51,22 +54,24 @@ export default function BannerPrincipalCell({proporcional}) {
                             </div>
                         </div>
                         
-                        <div className='carousel-item' data-bs-interval='3000' style={{width: '100%', height: 720 / proporcional, 
-                                /**backgroundImage: `url(${background_02})`,**/ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+                        <div className='carousel-item' data-bs-interval='3000' style={{width: '100%', height: 720 / proporcional, /**backgroundImage: `url(${})`,**/ 
+                            backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
                             <div className='position-absolute' style={{width: 'auto', height: 'auto', left: 60 / proporcional, top: '35%'}}>
-                                <h1 style={{fontSize: 40 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
+                                <h1 style={{fontSize: 44 / proporcional, fontWeight: 700, lineHeight: `${50 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    CARAL HOME
+                                    NUESTRO PROVEEDOR OLEA 
                                 </h1>
                                 <div className={boton_slide_3 ? 'shadow-lg rounded-pill' : 'shadow rounded-pill'} style={{width: 300 / proporcional, height: 60 / proporcional, background: '#20294e',
                                     cursor: 'pointer'
-                                }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}>
+                                }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}
+                                    onClick={() => navigate ('/proveedor/olea')}>
                                     <p style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${60 / proporcional}px`, color: 'white', fontFamily: 'Poppins, sans-serif',
                                         marginBottom: 0 / proporcional, cursor: 'default', textAlign: 'center'}}>
                                         VER PRODUCTOS
                                     </p>
                                 </div>
                             </div>
+
                         </div>
                         
                         <div className='carousel-item' data-bs-interval='3000' style={{width: '100%', height: 720 / proporcional, /**backgroundImage: `url(${background_03})`,**/
@@ -78,7 +83,8 @@ export default function BannerPrincipalCell({proporcional}) {
                                 </h1>
                                 <div className={boton_slide_3 ? 'shadow-lg rounded-pill' : 'shadow rounded-pill'} style={{width: 300 / proporcional, height: 60 / proporcional, background: '#20294e',
                                     cursor: 'pointer'
-                                }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}>
+                                }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}
+                                onClick={() => navigate ('/merchandising')}>
                                     <p style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${60 / proporcional}px`, color: 'white', fontFamily: 'Poppins, sans-serif',
                                         marginBottom: 0 / proporcional, cursor: 'default', textAlign: 'center'}}>
                                         VER PRODUCTOS

@@ -19,6 +19,16 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/build', 'index'));
 });
 
+app.use(express.static(path.resolve(__dirname, './client/build/proveedor')));
+app.get('/proveedor/:nombre', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/proveedor', 'index'));
+});
+
+app.use(express.static(path.resolve(__dirname, './client/build/merchandising')));
+app.get('/merchandising', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './client/build/merchandising', 'index'));
+});
+
 //Iniciar el servidor
 app.listen (app.get('port'), () => {
     console.log ('Server en puerto ', app.get ('port'))

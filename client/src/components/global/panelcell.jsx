@@ -4,28 +4,12 @@ import { Outlet } from 'react-router-dom'
 
 import whatsapp from '../../assets/iconos/redes/whatsapp.png'
 
-import MenuDatosCell from '../comun/menudatoscell.jsx'
-import MenuSuperiorCell from '../comun/menusuperiorcell.jsx'
-import MenuLateralCell from '../comun/menulateralcell.jsx'
-import { useSelector } from 'react-redux'
-
 export default function GlobalPanelCell({proporcional}) {
 
     const [boton_whatsapp, setBotonWhatsapp] = useState(false)
 
-    const {open_menu_main} = useSelector(({data_actions}) => data_actions)
-
     return (
         <div className='position-relative' style={{width: '100%', height: 'auto'}}>
-            <div className='position-fixed top-0 start-0' style={{width: '100%', height: 'auto', background: 'transparent', zIndex: 9999}}>
-                <MenuDatosCell proporcional={proporcional}/>
-                <MenuSuperiorCell proporcional={proporcional}/>
-                {
-                    open_menu_main ? (
-                        <MenuLateralCell proporcional={proporcional}/>
-                    ) : null
-                }
-            </div>
             <Outlet/>
             <div className={boton_whatsapp ? 'position-fixed shadow-lg rounded-circle' : 'position-fixed shadow rounded-circle'} 
                 style={{width: 96 / proporcional, height: 96 / proporcional, bottom: 64 / proporcional, right: 64 / proporcional, 
