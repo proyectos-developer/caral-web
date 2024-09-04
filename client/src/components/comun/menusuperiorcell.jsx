@@ -15,7 +15,9 @@ export default function MenuSuperiorCell({proporcional}) {
     console.log ('open', open_menu_main)
 
     return (
-        <div className='shadow' style={{width: '100%', height: 100 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional}}>
+        <div className='' style={{width: '100%', height: 100 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional,
+                background: 'rgba(192, 225, 215, 0.8)'
+        }}>
             <div style={{width: '100%', height: 60 / proporcional, paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                 <div className='d-flex jusfity-content-between' style={{width: '100%', height: 60 / proporcional}}>
                     <div style={{width: '50%', height: 60 / proporcional}}>

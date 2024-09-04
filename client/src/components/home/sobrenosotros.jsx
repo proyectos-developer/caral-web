@@ -21,7 +21,7 @@ export default function SobreNosotros({proporcional}) {
                             <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto', padding: 25 / proporcional}}>
                                 <h2 style={{fontSize: 48 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    MAS QUE UN DISTRIBUIDOR
+                                    Mas que un distribuidor
                                 </h2>
                                 <div style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                                     <p style={{fontSize: 18 / proporcional, lineHeight: `${24 / proporcional}px`, marginBottom: 0, fontFamily: 'Banshrif', fontWeight: 400,

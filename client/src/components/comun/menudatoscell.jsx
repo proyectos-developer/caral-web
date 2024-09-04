@@ -7,7 +7,8 @@ import phone from '../../assets/iconos/footer/phone.png'
 export default function MenuDatosCell({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional}}>
+        <div style={{width: '100%', height: 'auto', paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional,
+            background: 'rgba(192, 225, 215, 0.8)'}}>
             <div style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                 <div className='d-flex justify-content-between' style={{width: '100%', height: 40 / proporcional}}>
                     <div className='d-flex' style={{width: '48%', height: 'auto'}}>

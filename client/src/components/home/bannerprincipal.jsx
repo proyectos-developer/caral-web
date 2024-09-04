@@ -30,12 +30,8 @@ export default function BannerPrincipal({proporcional}) {
                             <div className='position-absolute top-50 start-50 translate-middle' style={{width: 'auto', height: 'auto'}}>
                                 <h1 style={{fontSize: 64 / proporcional, fontWeight: 700, lineHeight: `${80 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    Productos Gourmet
+                                    Nuestros productos
                                 </h1>
-                                {/**<h3 style={{fontSize: 30 / proporcional, fontWeight: 500, lineHeight: `${40 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
-                                    marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    Productos exclusivos para Hoteles, Restaurantes<br/> y Catering.
-                                </h3>**/}
                             </div>
 
                         </div>
@@ -47,12 +43,12 @@ export default function BannerPrincipal({proporcional}) {
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
                                     Vamos a todo el Perú
                                 </h1>
-                                <h3 style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${25 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
+                                {/**<h3 style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${25 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
                                         (Frases opcionales se pueden reemplazar)<br/>
                                     "Llegamos a cada rincón del Perú", <br/> "Conectamos el Perú, entregamos confianza." <br/>
                                     "Tu socio confiable para distribuir en todo el Perú." <br/> "El Perú en tus manos, seguro y a tiempo."
-                                </h3>
+                                </h3>**/}
                             </div>
 
                         </div>
@@ -62,8 +58,14 @@ export default function BannerPrincipal({proporcional}) {
                             <div className='position-absolute' style={{width: 'auto', height: 'auto', left: 250 / proporcional, top: '45%'}}>
                                 <h1 style={{fontSize: 64 / proporcional, fontWeight: 700, lineHeight: `${80 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    Nuestro proveedor OLEA
+                                    CARAL HOME by Olea
                                 </h1>
+                                <h3 style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${25 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
+                                    marginBottom: 30 / proporcional, cursor: 'default'}}>
+                                    Muebles y enseres decorativos, adornos y otros para tu negocio y tu casa, 
+                                    <br/>personalizados y únicos, de acuerdo a tu estilo. 
+                                    <br/>Que tus visitantes admiren lo que hiciste con tu espacio y quieran retornar.
+                                </h3>
                                 <div className={boton_slide_3 ? 'shadow-lg rounded-pill' : 'shadow rounded-pill'} style={{width: 300 / proporcional, height: 60 / proporcional, background: '#20294e',
                                     cursor: 'pointer'
                                 }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}
@@ -82,8 +84,13 @@ export default function BannerPrincipal({proporcional}) {
                             <div className='position-absolute' style={{width: 'auto', height: 'auto', left: 200 / proporcional, top: '40%'}}>
                                 <h1 style={{fontSize: 64 / proporcional, fontWeight: 700, lineHeight: `${80 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                                     marginBottom: 30 / proporcional, cursor: 'default'}}>
-                                    Merchandising para empresas
+                                    CARAL MERCH
                                 </h1>
+                                <h3 style={{fontSize: 20 / proporcional, fontWeight: 500, lineHeight: `${25 / proporcional}px`, color: '#20294e', fontFamily: 'Banschrift',
+                                    marginBottom: 30 / proporcional, cursor: 'default'}}>
+                                    Merchandising para empresas, Trabajamos con todo tipo de 
+                                    <br/>artículos que puedan generar un impacto y recuerdo de tu marca . . . Destaca!
+                                </h3>
                                 <div className={boton_slide_3 ? 'shadow-lg rounded-pill' : 'shadow rounded-pill'} style={{width: 300 / proporcional, height: 60 / proporcional, background: '#20294e',
                                     cursor: 'pointer'
                                 }} onMouseOver={() => setBotonSlide3(true)} onMouseLeave={() => setBotonSlide3(false)}

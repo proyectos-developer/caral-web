@@ -5,7 +5,7 @@ import producto_01 from '../../assets/image/olea/producto_01.png'
 import producto_02 from '../../assets/image/olea/producto_02.png'
 import producto_03 from '../../assets/image/olea/producto_03.png'
 
-export default function ProveedorPanelTablet ({proporcional}) {
+export default function ProveedorTablet ({proporcional}) {
 
     return (
         <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional,

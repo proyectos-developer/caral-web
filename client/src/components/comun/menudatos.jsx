@@ -13,7 +13,8 @@ import tiktok from '../../assets/iconos/redes/tiktok.png'
 export default function MenuDatos({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 60 / proporcional, paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional}}>
+        <div style={{width: '100%', height: 60 / proporcional, paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional,
+            background: 'rgba(192, 225, 215, 0.8)'}}>
             <div style={{width: '100%', height: 40 / proporcional, paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
                 <div className='d-flex justify-content-between' style={{width: '100%', height: 40 / proporcional}}>
                     <div className='d-flex justify-content-start' style={{width: '60%', height: 40 / proporcional}}>

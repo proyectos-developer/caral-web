@@ -15,7 +15,9 @@ export default function MenuSuperiorTablet({proporcional}) {
     console.log ('data', open_menu_main)
 
     return (
-        <div className='shadow' style={{width: '100%', height: 120 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional, zIndex: 99999}}>
+        <div className='' style={{width: '100%', height: 120 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional,
+                background: 'rgba(192, 225, 215, 0.8)'
+        }}>
             <div style={{width: '100%', height: 80 / proporcional, paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
                 <div className='d-flex jusfity-content-between' style={{width: '100%', height: 80 / proporcional}}>
                     <div style={{width: '50%', height: 80 / proporcional}}>

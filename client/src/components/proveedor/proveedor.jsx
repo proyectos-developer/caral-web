@@ -13,7 +13,7 @@ export default function Proveedor ({proporcional}) {
         }}>
             <h1 style={{fontSize: 50 / proporcional, fontWeight: 700, lineHeight: `${70 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                 marginBottom: 32 / proporcional, cursor: 'default'}}>
-                Productos de OLEA
+                CARAL HOME by OLEA
             </h1>
             <div style={{width: '100%', height: 'auto'}}>
                 <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
