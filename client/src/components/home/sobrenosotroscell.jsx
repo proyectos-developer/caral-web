@@ -7,9 +7,9 @@ import vision from '../../assets/iconos/home/vision_dorado.png'
 export default function SobreNosotrosCell({proporcional}) {
 
     return (
-        <div className='' style={{width: '100%', height: 'auto', paddingTop: 30 / proporcional, paddingBottom: 60 / proporcional}}>
+        <div id='nosotros' className='' style={{width: '100%', height: 'auto', paddingTop: 200 / proporcional, paddingBottom: 200 / proporcional}}>
             <div className='' style={{width: '100%', height: 'auto'}}>
-                <div id='nosotros' className='' style={{width: '100%', height: 'auto'}}>
+                <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional, paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                         <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 'auto'}}>
                             <img className='rounded-pill' src={image_nosotros} style={{width: '80%', height: 'auto'}}/>

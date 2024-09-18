@@ -6,8 +6,8 @@ import familia from '../../assets/image/home/clientes_familia.png'
 export default function NuestrosClientesTablet({proporcional}) {
 
     return (
-        <div className='' style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
-            <div id='clientes' className='' style={{width: '100%', height: 'auto'}}>
+        <div id='clientes' className='' style={{width: '100%', height: 'auto', paddingTop: 200 / proporcional, paddingBottom: 200 / proporcional}}>
+            <div className='' style={{width: '100%', height: 'auto'}}>
                 <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional, paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
                     <h2 style={{fontSize: 48 / proporcional, fontWeight: 700, lineHeight: `${60 / proporcional}px`, color: '#d5121e', fontFamily: 'Mont',
                         marginBottom: 30 / proporcional, cursor: 'default'}}>

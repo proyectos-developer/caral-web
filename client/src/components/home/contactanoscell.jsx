@@ -6,8 +6,8 @@ import FormularioCell from './contacto/formulariocell.jsx'
 export default function ContactanosCell({proporcional}) {
 
     return (
-        <div className='' style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
-            <div id='contacto' className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
+        <div id='contacto' className='' style={{width: '100%', height: 'auto', paddingTop: 200 / proporcional, paddingBottom: 200 / proporcional}}>
+            <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                 <div className='' style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 30 / proporcional}}>
                         <InformacionCell proporcional={proporcional}/>

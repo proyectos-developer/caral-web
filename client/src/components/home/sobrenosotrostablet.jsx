@@ -7,9 +7,9 @@ import vision from '../../assets/iconos/home/vision_dorado.png'
 export default function SobreNosotrosTablet({proporcional}) {
 
     return (
-        <div className='' style={{width: '100%', height: 'auto', paddingTop: 60 / proporcional, paddingBottom: 60 / proporcional}}>
+        <div id='nosotros' className='' style={{width: '100%', height: 'auto', paddingTop: 200 / proporcional, paddingBottom: 200 / proporcional}}>
             <div className='' style={{width: '100%', height: 'auto'}}>
-                <div id='nosotros' className='' style={{width: '100%', height: 'auto'}}>
+                <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 676 / proporcional, marginBottom: 32 / proporcional, paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
                         <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 650 / proporcional, 
                                 marginTop: 13 / proporcional, marginBottom: 13 / proporcional}}>

@@ -7,10 +7,10 @@ import vision from '../../assets/iconos/home/vision_dorado.png'
 export default function SobreNosotros({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 'auto'}}>
-            <div className='' style={{width: '100%', height: 'auto', paddingTop: 120 / proporcional, paddingBottom: 60 / proporcional}}>
+        <div id='nosotros' style={{width: '100%', height: 'auto'}}>
+            <div className='' style={{width: '100%', height: 'auto', paddingTop: 200 / proporcional, paddingBottom: 200 / proporcional}}>
                 <div className='' style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
-                    <div id='nosotros' className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
+                    <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
                         <div className='' style={{width: '37%', height: 676 / proporcional}}>
                             <div className='d-flex justify-content-center rounded-pill' style={{width: '100%', height: 650 / proporcional, 
                                     marginTop: 13 / proporcional, marginBottom: 13 / proporcional}}>
