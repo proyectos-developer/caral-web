@@ -25,8 +25,10 @@ export default function MenuLateralCell({proporcional}) {
                             fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'right'}}
                             onMouseOver={() => setSeleccionMenu('inicio')} onMouseLeave={() => setSeleccionMenu('')}>
-                            <a href='/#' style={{textDecoration: 'none', color: '#20294e'}}
-                                onClick={() => dispatch(set_open_menu_main(false))}>Inicio</a>
+                            <span style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => {dispatch(set_open_menu_main(false));
+                                    window.scrollTo(0, 0)
+                                }}>Inicio</span>
                         </p>
                     </div>
                     <div style={{width: '100%', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 40 / proporcional, paddingLeft: 40 / proporcional}}>
@@ -34,8 +36,10 @@ export default function MenuLateralCell({proporcional}) {
                             fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'right'}}
                             onMouseOver={() => setSeleccionMenu('nosotros')} onMouseLeave={() => setSeleccionMenu('')}>
-                            <a href='/#nosotros' style={{textDecoration: 'none', color: '#20294e'}}
-                                onClick={() => dispatch(set_open_menu_main(false))}>Nosotros</a>
+                            <span  style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => {dispatch(set_open_menu_main(false));
+                                    window.scrollTo(0, 750 / proporcional)
+                                }}>Nosotros</span>
                         </p>
                     </div>
                     <div style={{width: '100%', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 40 / proporcional, paddingLeft: 40 / proporcional}}>
@@ -43,8 +47,10 @@ export default function MenuLateralCell({proporcional}) {
                             fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'right'}}
                             onMouseOver={() => setSeleccionMenu('clientes')} onMouseLeave={() => setSeleccionMenu('')}>
-                            <a href='/#clientes' style={{textDecoration: 'none', color: '#20294e'}}
-                                onClick={() => dispatch(set_open_menu_main(false))}>Clientes</a>
+                            <span  style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => {dispatch(set_open_menu_main(false));
+                                    window.scrollTo(0, 2060 / proporcional)
+                                }}>Clientes</span>
                         </p>
                     </div>
                     <div style={{width: '100%', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 40 / proporcional, paddingLeft: 40 / proporcional}}>
@@ -52,8 +58,10 @@ export default function MenuLateralCell({proporcional}) {
                             fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'right'}}
                             onMouseOver={() => setSeleccionMenu('productos')} onMouseLeave={() => setSeleccionMenu('')}>
-                            <a href='/#productos' style={{textDecoration: 'none', color: '#20294e'}}
-                                onClick={() => dispatch(set_open_menu_main(false))}>Productos</a>
+                            <span  style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => {dispatch(set_open_menu_main(false));
+                                    window.scrollTo(0, 3280 / proporcional)
+                                }}>Productos</span>
                         </p>
                     </div>
                     <div style={{width: '100%', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 40 / proporcional, paddingLeft: 40 / proporcional}}>
@@ -61,8 +69,10 @@ export default function MenuLateralCell({proporcional}) {
                             fontFamily: 'Mont',
                             marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'right'}}
                             onMouseOver={() => setSeleccionMenu('contacto')} onMouseLeave={() => setSeleccionMenu('')}>
-                            <a href='/#contacto' style={{textDecoration: 'none', color: '#20294e'}}
-                                onClick={() => dispatch(set_open_menu_main(false))}>Contácto</a>
+                            <span  style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => {dispatch(set_open_menu_main(false));
+                                    window.scrollTo(0, 7512 / proporcional)
+                                }}>Contácto</span>
                         </p>
                     </div>
                     <div className='rounded-pill' style={{width: '90%', height: 2 / proporcional, background: '#20294e', marginLeft: '5%',  marginRight: '5%', marginBottom: 20 / proporcional}}/>

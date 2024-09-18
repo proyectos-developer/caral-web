@@ -31,7 +31,8 @@ export default function MenuSuperior({proporcional}) {
                                 color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('nosotros')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#nosotros' style={{textDecoration: 'none', color: '#20294e'}}>Nosotros</a>
+                                <span href='' style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => window.scrollTo(0, 850 / proporcional)}>Nosotros</span>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
@@ -39,7 +40,8 @@ export default function MenuSuperior({proporcional}) {
                                 color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('clientes')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#clientes' style={{textDecoration: 'none', color: '#20294e'}}>Clientes</a>
+                                <span style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => window.scrollTo(0, 1650 / proporcional)}>Clientes</span>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
@@ -47,7 +49,8 @@ export default function MenuSuperior({proporcional}) {
                                 color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('productos')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#productos' style={{textDecoration: 'none', color: '#20294e'}}>Productos</a>
+                                <span style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => window.scrollTo(0, 2740 / proporcional)}>Productos</span>
                             </p>
                         </div>
                         <div style={{width: 'auto', height: 80 / proporcional, padding: 20 / proporcional, paddingRight: 0, paddingLeft: 40 / proporcional}}>
@@ -55,7 +58,8 @@ export default function MenuSuperior({proporcional}) {
                                 color: '#20294e', fontFamily: 'Mont',
                                 marginBottom: 0 / proporcional, cursor: 'pointer', textAlign: 'left'}}
                                 onMouseOver={() => setSeleccionMenu('contacto')} onMouseLeave={() => setSeleccionMenu('')}>
-                                <a href='/#contacto' style={{textDecoration: 'none', color: '#20294e'}}>Contácto</a>
+                                <span style={{textDecoration: 'none', color: '#20294e'}}
+                                onClick={() => window.scrollTo(0, 3838 / proporcional)}>Contácto</span>
                             </p>
                         </div>
                     </div>

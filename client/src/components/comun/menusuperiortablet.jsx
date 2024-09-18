@@ -12,7 +12,6 @@ export default function MenuSuperiorTablet({proporcional}) {
     const dispatch = useDispatch()
 
     const {open_menu_main} = useSelector(({data_actions}) => data_actions)
-    console.log ('data', open_menu_main)
 
     return (
         <div className='' style={{width: '100%', height: 120 / proporcional, paddingTop: 20 / proporcional, paddingBottom: 20 / proporcional,
